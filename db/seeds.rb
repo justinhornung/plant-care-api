@@ -5,8 +5,8 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
-User.create!(name: "Justin", email: "justin@test.com", password_digest: "password", image_url: "user_image1.jpg")
-User.create!(name: "Nicole", email: "nicole@test.com", password_digest: "password", image_url: "user_image2.jpg")
+User.create!(name: "Justin", email: "justin@test.com", password: "password", image_url: "user_image1.jpg")
+User.create!(name: "Nicole", email: "nicole@test.com", password: "password", image_url: "user_image2.jpg")
 
 Plant.create!(name: "Aloe", description: "Aloe description", amount_of_sun: 6, days_to_water: 3)
 Plant.create!(name: "Peace Lily", description: "Peace Lily description", amount_of_sun: 4, days_to_water: 4)
