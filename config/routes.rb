@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   post "/sessions" => "sessions#create"
 
   get "/plants" => "plants#index"
+  post "/plants" => "plants#create"
   get "/plants/:id" => "plants#show"
 
   get "/schedules" => "schedules#index"
